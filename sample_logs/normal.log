@@ -1,0 +1,5 @@
+2026-09-24 11:01:01 INFO  CustomerService - Application started
+2026-09-24 11:02:01 INFO  CustomerService - Request received
+2026-09-24 11:02:02 INFO  CustomerService - Request completed successfully
+2026-09-24 11:03:10 INFO  CustomerService - Request received
+2026-09-24 11:03:10 INFO  CustomerService - Request completed successfully

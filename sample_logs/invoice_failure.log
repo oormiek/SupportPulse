@@ -1,0 +1,6 @@
+2026-09-24 10:01:02 INFO  InvoiceService - Application started
+2026-09-24 09:01:05 INFO  InvoiceService - Request received POST /orders
+2026-09-24 09:01:05 INFO  InvoiceService - Processing Invoice 2001
+2026-09-24 09:01:07 WARN  InvoiceService - Database response time 3800ms
+2026-09-24 09:01:18 ERROR InvoiceService - Database connection timeout
+2026-09-24 09:01:18 ERROR InvoiceService - HTTP 500 returned

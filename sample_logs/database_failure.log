@@ -1,0 +1,10 @@
+2026-09-24 09:01:02 INFO  OrderService - Application started
+2026-09-24 09:01:05 INFO  OrderService - Request received POST /orders
+2026-09-24 09:01:05 INFO  OrderService - Processing order 1001
+2026-09-24 09:01:07 WARN  OrderService - Database response time 2800ms
+2026-09-24 09:01:08 ERROR OrderService - Database connection timeout
+2026-09-24 09:01:08 ERROR OrderService - Failed to process order
+2026-09-24 09:01:09 ERROR OrderService - HTTP 500 returned
+2026-09-24 09:01:15 INFO  OrderService - Request received POST /orders
+2026-09-24 09:01:18 ERROR OrderService - Database connection timeout
+2026-09-24 09:01:18 ERROR OrderService - HTTP 500 returned

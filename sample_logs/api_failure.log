@@ -1,0 +1,7 @@
+2026-09-24 10:01:02 INFO  PaymentService - Application started
+2026-09-24 10:02:12 INFO  PaymentService - Request received
+2026-09-24 10:02:13 ERROR PaymentService - HTTP 500 Internal Server Error
+2026-09-24 10:02:13 ERROR PaymentService - NullPointerException in PaymentService
+2026-09-24 10:03:01 WARN  PaymentService - Response time 4200ms
+2026-09-24 10:03:01 ERROR PaymentService - HTTP 500 Internal Server Error
+2026-09-24 10:04:10 WARN  PaymentService - Authentication failure
