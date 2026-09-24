@@ -108,6 +108,20 @@ if submitted:
     st.success("Incident saved successfully.")
 
 incidents = get_incidents()
+
 if incidents:
-    st.subheader("Recent Incidents")
-    st.dataframe(incidents, use_container_width=True)
+    incident_table = [
+        {
+            "Incident ID": f"INC-{incident['id']:04d}",
+            "Title": incident["title"],
+            "Application": incident["application"],
+            "Priority": incident["priority"],
+            "Status": incident["status"],
+            "Root Cause": incident["root_cause"],
+            "Resolution": incident["resolution"],
+            "Created At": incident["created_at"],
+        }
+        for incident in incidents
+    ]
+
+    st.dataframe(incident_table, use_container_width=True)
