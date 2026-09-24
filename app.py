@@ -57,6 +57,17 @@ c2.metric("Warnings", stats["warnings"])
 c3.metric("HTTP 500", stats["http_500"])
 c4.metric("Timeouts", stats["timeouts"])
 
+st.subheader("Log Event Breakdown")
+
+chart_data = {
+    "Errors": stats["errors"],
+    "Warnings": stats["warnings"],
+    "HTTP 500": stats["http_500"],
+    "Timeouts": stats["timeouts"],
+}
+
+st.bar_chart(chart_data)
+
 st.subheader("Incident Assessment")
 a1, a2 = st.columns(2)
 a1.info(f"**Likely Issue:** {classification['issue']}")
